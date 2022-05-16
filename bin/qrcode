@@ -80,7 +80,7 @@ var argv = yargs
   .option('t', {
     alias: 'type',
     description: 'Output type',
-    choices: ['png', 'svg', 'utf8'],
+    choices: ['png', 'svg', 'utf8', 'propps-svg'],
     implies: 'output',
     group: 'Renderer options:'
   })
