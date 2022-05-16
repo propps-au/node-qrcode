@@ -23,7 +23,8 @@
     "bin",
     "build",
     "lib",
-    "helper"
+    "helper",
+    "index.d.ts"
   ],
   "homepage": "http://github.com/soldair/node-qrcode",
   "license": "MIT",
