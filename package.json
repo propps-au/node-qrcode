@@ -1,7 +1,7 @@
 {
   "name": "@propps-au/qrcode",
   "description": "QRCode / 2d Barcode api with both server side and client side support using canvas",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Ryan Day <soldair@gmail.com>",
   "repository": {
     "type": "git",

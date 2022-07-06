@@ -52,7 +52,7 @@ export interface QRCodeToStringOptions extends QRCodeRenderersOptions {
      */
     // type?: 'utf8' | 'svg' | 'terminal' | undefined;
     // MODIFICATION: add propps-svg
-    type?: 'utf8' | 'svg' | 'terminal' | 'propps-svg' | undefined;
+    type?: 'utf8' | 'svg' | 'terminal' | 'propps-svg' | 'propps-svg-static' | undefined;
 }
 
 export interface QRCodeToFileOptions extends QRCodeRenderersOptions {
