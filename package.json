@@ -1,8 +1,15 @@
 {
-  "name": "@propps/qrcode",
+  "name": "@propps-au/qrcode",
   "description": "QRCode / 2d Barcode api with both server side and client side support using canvas",
-  "version": "1.5.5",
+  "version": "0.0.1",
   "author": "Ryan Day <soldair@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/propps-au/node-qrcode.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "contributors": [
     "Vincenzo Greco <greco.vincenzo@gmail.com>",
     "Linus Unnebäck <linus@folkdatorn.se>"
@@ -26,7 +33,6 @@
     "helper",
     "index.d.ts"
   ],
-  "homepage": "http://github.com/soldair/node-qrcode",
   "license": "MIT",
   "scripts": {
     "lint": "standard",
@@ -65,10 +71,6 @@
     "standard": "^16.0.4",
     "tap": "^15.1.2",
     "typescript": "^4.6.4"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/soldair/node-qrcode.git"
   },
   "engines": {
     "node": ">=10.13.0"
